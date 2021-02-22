@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_z2_row.mk
+    $(LOCAL_DIR)/dot_z2_row.mk
+
+COMMON_LUNCH_CHOICES := \
+    dot_z2_row-user \
+    dot_z2_row-userdebug \
+    dot_z2_row-eng

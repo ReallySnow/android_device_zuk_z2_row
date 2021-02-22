@@ -21,16 +21,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from z2_row device
 $(call inherit-product, device/zuk/z2_row/device.mk)
 
-# Inherit some common PixelExperience stuff.
+# Inherit some common dotOS stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 
-PRODUCT_NAME := aosp_z2_row
+PRODUCT_NAME := dot_z2_row
 PRODUCT_DEVICE := z2_row
 PRODUCT_MANUFACTURER := ZUK
 PRODUCT_BRAND := ZUK
-PRODUCT_MODEL := ZUK Z2121
+PRODUCT_MODEL := Z2 Row
 
 PRODUCT_GMS_CLIENTID_BASE := android-zuk
 
