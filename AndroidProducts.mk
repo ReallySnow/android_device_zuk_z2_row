@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_z2_row.mk
+    $(LOCAL_DIR)/exthm_z2_row.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_z2_row-user \
-    aosp_z2_row-userdebug \
-    aosp_z2_row-eng
+    exthm_z2_row-user \
+    exthm_z2_row-userdebug \
+    exthm_z2_row-eng
